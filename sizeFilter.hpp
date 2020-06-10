@@ -34,7 +34,7 @@ public:
 		return (*this);
 	}
 	//获取容器大小
-	size_type size() const
+	int size() const
 	{
 		return c.size();
 	}
@@ -67,6 +67,7 @@ public:
 	//获取最大值
 	pair<value_type, bool> getMax()
 	{
+		//定义一个用于接收返回值的对组
 		pair<value_type, bool> ret;
 		if (c.size() > 0)
 		{

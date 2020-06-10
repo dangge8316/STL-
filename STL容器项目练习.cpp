@@ -11,7 +11,8 @@ int main()
 	}
 	sf.erase(0);
 	sf.erase(36);
-
+	int n = sf.size();
+	cout << "n=" << n << endl;
 	sf.getMax();
 	sf.getMin();
 }
